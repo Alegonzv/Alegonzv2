@@ -58,6 +58,76 @@ main (){
 }
 
 
-//programa 5 
+//programa 5 si es 8igual a nuevas lineas
+
+
+#include<stdio.h>
+
+main(){
+
+    int c ,n1;
+    n1=0;
+    while ((c=getchar())!=EOF)
+        if (c=='\n')
+            ++n1;
+    printf("%d\n",n1);
+
+}
+
+// p 9 imprime nuevas lineas palabras y caracteres
+
+
+#include<stdio.h>
+
+#define IN 1
+#define OUT 0
+
+
+main(){
+    int c,nl,nw,nc,state ;
+    state=OUT;
+    nl=nw=nc=0;
+    while (c=getchar() !=EOF){
+        ++nc;
+        if(c=='\n')
+            ++nl;
+        if(c==' ' || c=='\n' || c== '\t')
+            state=OUT;
+        else if(state ==OUT){
+            state =IN;
+            ++nw;
+        }
+    }
+    printf("%d %d %d \n",nl,nw,nc);
+
+
+}
+
+
+//nuevo programa
+
+
+#include<stdio.h>
+
+#define IN 1
+#define OUT 0
+
+
+main(){
+    int c,i.nwhite,nother;
+    int ndigit[10];
+    
+    nwhite=nother=0;
+    for(1=0;i<10;++i)
+        ndigit[i]=0;
+    while ((c=getchar ())!=EOF)
+        if (c>='0' && c<='9')
+            ++ndigit[c-'0'];
+        else
+        
+        
+        
+TERMINAR
+
 
 
