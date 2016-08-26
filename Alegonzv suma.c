@@ -27,4 +27,37 @@ int main(){
         printf("%d\t%d\n",fahr,celsius);
         fahr=fahr +step;
     }
+    
+    
+    //programa 3
+    
+    
+    #include<stdio.h>
+
+main(){
+    int c;
+    c=getchar();
+    while (c != EOF){
+        putchar(c);
+        c=getchar();
+    }
+
+}
+
+//programa 4 
+
+#include<stdio.h>
+main (){
+    float nc;
+
+    nc=0;
+    while(getchar ()!=EOF)
+        ++nc;
+    printf("%f\n",nc);
+
+}
+
+
+//programa 5 
+
 
